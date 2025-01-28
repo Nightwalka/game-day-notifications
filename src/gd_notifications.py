@@ -48,6 +48,8 @@ def format_game_data(game):
             f"Details are unavailable at the moment.\n"
         )
 
+
+#r
 def lambda_handler(event, context):
     # Get environment variables
     api_key = os.getenv("NBA_API_KEY")
